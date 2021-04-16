@@ -1,0 +1,81 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/zengzhixiong/code_dir/flutter/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/zengzhixiong/code_dir/flutter/flutter/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/zengzhixiong/Code/edu_lagou/part2.module1.task3.自动化构建/code/zzx-gulp-workflow/package.json: Unexpected token  in JSON at position 243
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "zzx-gulp-workflow",
+    "version": "0.1.0",
+    "description": "static web app workflow",
+    "keywords": [
+      "zzx-gulp-workflow",
+      "zce"
+    ],
+    "repository": "daxiongFED/zzx-gulp-workflow",
+    "license": "MIT",
+    "author": "大雄FED <690625847@qq.com> (https://github.com/daxiongFED)",
+    "main": "lib/index.js",
+    "files": [
+      "lib"
+    ],
+    "scripts": {
+      "lint": "standard --fix",
+      "prepare": "npm run lint"
+    },
+    "renovate": {
+      "extends": [
+        "zce"
+      ]
+    },
+    "dependencies": {
+      "@babel/core": "^7.5.5",
+      "@babel/preset-env": "^7.5.5",
+      "browser-sync": "^2.26.14",
+      "del": "^6.0.0",
+      "gulp": "^4.0.2",
+      "gulp-babel": "^8.0.0",
+      "gulp-clean-css": "^4.3.0",
+      "gulp-htmlmin": "^5.0.1",
+      "gulp-if": "^3.0.0",
+      "gulp-imagemin": "^7.1.0",
+      "gulp-load-plugins": "^2.0.6",
+      "gulp-sass": "^4.1.0",
+      "gulp-swig": "^0.9.1",
+      "gulp-uglify": "^3.0.2",
+      "gulp-useref": "^5.0.0"
+    },
+    "devDependencies": {
+      "standard": "16.0.3"
+    },
+    "engines": {
+      "node": ">=10"
+    },
+    "publishConfig": {
+      "registry": "https://registry.npmjs.org"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
