@@ -1,0 +1,35 @@
+{
+  "name": "zzx-gulp-workflow",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "zzx-gulp-workflow",
+    "zce"
+  ],
+  "repository": "daxiongFED/zzx-gulp-workflow",
+  "license": "MIT",
+  "author": "大雄FED <690625847@qq.com> (https://github.com/daxiongFED)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
