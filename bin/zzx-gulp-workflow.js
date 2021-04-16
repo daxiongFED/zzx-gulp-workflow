@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 console.log('zzx-gulp-workflow')
 
-
 process.argv.push('--cwd')
 process.argv.push(process.cwd())
 process.argv.push('--gulpfile')
